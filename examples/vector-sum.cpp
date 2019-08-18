@@ -18,4 +18,4 @@ int main() {
     return 0;
 }
 
-
+// gcc -O3 -fopt-info-vec vector-sum.cpp -lstdc++
