@@ -8,12 +8,13 @@ float vsum(float *v, int n) {
     for (int i = 0; i < n; i++) {
         s += v[i];
     }
-    
     return s;
 }
 
 int main() {
-    cout << sizeof(long int) << endl;
+    float foo[4] = {16, 2, 77, 40}; 
+    float res = vsum(foo, 4);
+    cout << res << endl;
     return 0;
 }
 
